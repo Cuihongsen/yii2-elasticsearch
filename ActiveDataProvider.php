@@ -158,13 +158,4 @@ class ActiveDataProvider extends \yii\data\ActiveDataProvider
             return array_keys($models);
         }
     }
-
-    /**
-     * @inheritdoc
-     */
-    public function refresh()
-    {
-        parent::refresh();
-        $this->_queryResults = null;
-    }
 }

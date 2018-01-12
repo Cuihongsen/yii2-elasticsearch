@@ -4,10 +4,8 @@ Yii Framework 2 elasticsearch extension Change Log
 2.0.5 under development
 -----------------------
 
-- Bug #149: Changed `yii\base\Object` to `yii\base\BaseObject` (dmirogin)
 - Bug #134: Fix infinite query loop "ActiveDataProvider" when the index does not exist (eolitich)
 - Bug #120: Fix debug panel markup to be compatible with Yii 2.0.10 (drdim)
-- Bug #125: Fixed `ActiveDataProvider::refresh()` to also reset `$queryResults` data (sizeg)
 - Bug: Updated debug panel classes to be consistent with yii 2.0.7 (beowulfenator)
 - Enh #15: Special data provider `yii\elasticsearch\ActiveDataProvider` created (klimov-paul)
 - Enh #47: Added support for post_filter option in search queries (mxkh)
@@ -18,7 +16,6 @@ Yii Framework 2 elasticsearch extension Change Log
 - Enh #43: Elasticsearch log target (trntv, beowulfenator)
 - Bug: Added accessor method for the default elasticsearch primary key (kyle-mccarthy)
 - Enh #119: Added support for explanation on query (kyle-mccarthy)
-- Enh #150: Explicitily send `Content-Type` header in HTTP requests to elasticsearch (lubobill1990)
 - Enh: Deserialization of raw response when text/plain is supported (Tezd)
 - Enh: Added ability to work with aliases through Command class (Tezd)
 
